@@ -1,0 +1,41 @@
+{
+  "685dd9568623f72bd0b0540ea13bc6eb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5d239ce6d955d360",
+      "status" : "failed",
+      "statusDetails" : "TypeError: str_add() takes 2 positional arguments but 3 were given",
+      "time" : {
+        "start" : 1545815117880,
+        "stop" : 1545815117960,
+        "duration" : 80
+      }
+    } ]
+  },
+  "beb600ec584156a2ba99b1c9449e97d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "180d321d0d6c6a94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545815117720,
+        "stop" : 1545815117878,
+        "duration" : 158
+      }
+    } ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TypeError: str_add() takes 2 positional arguments but 3 were given",
+      "children" : [ {
+        "name" : "test_login.TestInfo.test_case",
+        "uid" : "5d239ce6d955d360",
+        "parentUid" : "7b7063dab61d8a0d31ac5d8d2417cf76",
+        "status" : "failed",
+        "time" : {
+          "start" : 1545815117880,
+          "stop" : 1545815117960,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7b7063dab61d8a0d31ac5d8d2417cf76"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

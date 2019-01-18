@@ -1,0 +1,41 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "测试首页",
+    "children" : [ {
+      "name" : "测试是否可以获取信息",
+      "children" : [ {
+        "name" : "test_login.TestInfo.test_info",
+        "uid" : "180d321d0d6c6a94",
+        "parentUid" : "e9dda2f37ee35ed073966db46eed3fdf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1545815117720,
+          "stop" : 1545815117878,
+          "duration" : 158
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e9dda2f37ee35ed073966db46eed3fdf"
+    }, {
+      "name" : "test_story_01",
+      "children" : [ {
+        "name" : "test_login.TestInfo.test_case",
+        "uid" : "5d239ce6d955d360",
+        "parentUid" : "433e9ee0a3cf46bf74a121eea032e605",
+        "status" : "failed",
+        "time" : {
+          "start" : 1545815117880,
+          "stop" : 1545815117960,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "433e9ee0a3cf46bf74a121eea032e605"
+    } ],
+    "uid" : "cd40cc18d2ba81a6d4fc191501925a52"
+  } ]
+}

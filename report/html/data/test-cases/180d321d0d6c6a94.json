@@ -1,0 +1,105 @@
+{
+  "uid" : "180d321d0d6c6a94",
+  "name" : "test_login.TestInfo.test_info",
+  "fullName" : "testcase.test_login.TestInfo.test_info",
+  "historyId" : "beb600ec584156a2ba99b1c9449e97d",
+  "time" : {
+    "start" : 1545815117720,
+    "stop" : 1545815117878,
+    "duration" : 158
+  },
+  "description" : "\n        我是一个用例描述，这个用例是用来获取Android信息的\n        ",
+  "descriptionHtml" : "<pre><code>    我是一个用例描述，这个用例是用来获取Android信息的\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "",
+      "time" : {
+        "start" : 1545815117722,
+        "stop" : 1545815117877,
+        "duration" : 155
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试首页"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "QFdeMacBook-Pro.local"
+  }, {
+    "name" : "issue",
+    "value" : "www.baidu.com"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "测试是否可以获取信息"
+  }, {
+    "name" : "testId",
+    "value" : "www.baidu.com"
+  }, {
+    "name" : "thread",
+    "value" : "83590-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_login.TestInfo.test_info"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "www.baidu.com",
+    "url" : "www.baidu.com",
+    "type" : "issue"
+  }, {
+    "name" : "www.baidu.com",
+    "url" : "www.baidu.com",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "180d321d0d6c6a94.json",
+  "parameterValues" : [ ]
+}

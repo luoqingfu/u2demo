@@ -1,0 +1,21 @@
+[ {
+  "uid" : "5d239ce6d955d360",
+  "name" : "test_login.TestInfo.test_case",
+  "time" : {
+    "start" : 1545815117880,
+    "stop" : 1545815117960,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "180d321d0d6c6a94",
+  "name" : "test_login.TestInfo.test_info",
+  "time" : {
+    "start" : 1545815117720,
+    "stop" : 1545815117878,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

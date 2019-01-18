@@ -1,0 +1,7 @@
+{
+  "test.py::TestCase::()::test_four": true,
+  "test.py::test_two": true,
+  "test_demo.py::TestInfo::()::test_case": true,
+  "test_demo.py::TestInfo::()::test_info": true,
+  "test_module.py::test_ehlo": true
+}

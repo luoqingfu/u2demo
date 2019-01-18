@@ -1,0 +1,100 @@
+{
+  "uid" : "5d239ce6d955d360",
+  "name" : "test_login.TestInfo.test_case",
+  "fullName" : "testcase.test_login.TestInfo.test_case",
+  "historyId" : "685dd9568623f72bd0b0540ea13bc6eb",
+  "time" : {
+    "start" : 1545815117880,
+    "stop" : 1545815117960,
+    "duration" : 80
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: str_add() takes 2 positional arguments but 3 were given",
+  "statusTrace" : "self = <testcase.test_login.TestInfo object at 0x11122dd30>\n\n    @allure.story('test_story_01')\n    @allure.severity('blocker')\n    def test_case(self):\n        str1 = 'hello'\n        str2 = 'world'\n>       assert self.str_add(str1, str2) == 'helloworld'\n\ntestcase/test_login.py:53: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\na = (<testcase.test_login.TestInfo object at 0x11122dd30>, 'hello', 'world')\nkw = {}\n\n    @wraps(func)\n    def impl(*a, **kw):\n        with StepContext(self.allure, self.title.format(*a, **kw)):\n>           return func(*a, **kw)\nE           TypeError: str_add() takes 2 positional arguments but 3 were given\n\n/Users/qfl/.local/share/virtualenvs/uiautomator2/lib/python3.6/site-packages/allure/common.py:62: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TypeError: str_add() takes 2 positional arguments but 3 were given",
+    "statusTrace" : "self = <testcase.test_login.TestInfo object at 0x11122dd30>\n\n    @allure.story('test_story_01')\n    @allure.severity('blocker')\n    def test_case(self):\n        str1 = 'hello'\n        str2 = 'world'\n>       assert self.str_add(str1, str2) == 'helloworld'\n\ntestcase/test_login.py:53: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\na = (<testcase.test_login.TestInfo object at 0x11122dd30>, 'hello', 'world')\nkw = {}\n\n    @wraps(func)\n    def impl(*a, **kw):\n        with StepContext(self.allure, self.title.format(*a, **kw)):\n>           return func(*a, **kw)\nE           TypeError: str_add() takes 2 positional arguments but 3 were given\n\n/Users/qfl/.local/share/virtualenvs/uiautomator2/lib/python3.6/site-packages/allure/common.py:62: TypeError",
+    "steps" : [ {
+      "name" : "字符串相加：<testcase.test_login.TestInfo object at 0x11122dd30>，hello",
+      "time" : {
+        "start" : 1545815117881,
+        "stop" : 1545815117881,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "self = <testcase.test_login.TestInfo object at 0x11122dd30>\n\n    @allure.story('test_story_01')\n    @allure.severity('blocker')\n    def test_case(self):\n        str1 = 'hello'\n        str2 = 'world'\n>       assert self.str_add(str1, str2) == 'helloworld'\n\ntestcase/test_login.py:53: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\na = (<testcase.test_login.TestInfo object at 0x11122dd30>, 'hello', 'world')\nkw = {}\n\n    @wraps(func)\n    def impl(*a, **kw):\n        with StepContext(self.allure, self.title.format(*a, **kw)):\n>           return func(*a, **kw)\nE           TypeError: str_add() takes 2 positional arguments but 3 were given\n\n/Users/qfl/.local/share/virtualenvs/uiautomator2/lib/python3.6/site-packages/allure/common.py:62: TypeError",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试首页"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "QFdeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "test_story_01"
+  }, {
+    "name" : "thread",
+    "value" : "83590-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_login.TestInfo.test_case"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5d239ce6d955d360.json",
+  "parameterValues" : [ ]
+}

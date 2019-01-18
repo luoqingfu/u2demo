@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"failed","testcase.test_login.TestInfo.test_case","80",""
+"passed","testcase.test_login.TestInfo.test_info","158","
+        我是一个用例描述，这个用例是用来获取Android信息的
+        "
