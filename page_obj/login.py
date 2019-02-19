@@ -29,7 +29,7 @@ class Login(Base):
         # d(resourceId='com.netease.cloudmusic:id/acb').click_exists(timeout=3)
         # d(resourceId="com.netease.cloudmusic:id/q1").click_exists(timeout=3)
         # d(resourceId="com.netease.cloudmusic:id/i9").set_text("13226349780")
-        # d(resourceId="com.netease.cloudmusic:id/i7").set_text("19940919")
+        # d(resourceId="com.netease.cloudmusic:id/i7").set_text("*********")
         # d(resourceId='com.netease.cloudmusic:id/q1').click_exists(timeout=3)
         self.base.click(setting)
         self.base.click(login)
